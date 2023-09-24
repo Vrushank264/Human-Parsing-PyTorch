@@ -1,7 +1,7 @@
 # Human Parsing (Huma Part segementation) using PyTorch
 
 ### Results:
-<img src="results/00005_00.jpg" width="500"/> <img src="results/00005_00.png" width="500"/> 
+<img src="results/00005_00.jpg" width="450"/> <img src="results/00005_00.png" width="450"/> 
 
 Dataset
 
