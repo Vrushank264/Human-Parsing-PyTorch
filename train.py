@@ -30,7 +30,7 @@ from evaluate import get_ccihp_pallete, valid
 start = timeit.default_timer()
   
 BATCH_SIZE = 2
-DATA_DIRECTORY = '/home/vrushank/Spyne/HR-Viton/CCIHP'
+DATA_DIRECTORY = '/home/vrushank/data/Human-parsing/CCIHP'
 #DATA_LIST_PATH = './dataset/list/cityscapes/train.lst'
 IGNORE_LABEL = 255
 INPUT_SIZE = '32, 32'
@@ -39,7 +39,7 @@ MOMENTUM = 0.9
 NUM_CLASSES = 22
 POWER = 0.9
 RANDOM_SEED = 1234
-RESTORE_FROM= '/home/vrushank/Spyne/HR-Viton/CCIHP/resnet101-imagenet.pth'
+RESTORE_FROM= '/home/vrushank/data/Human-parsing/CCIHP/resnet101-imagenet.pth'
 SAVE_NUM_IMAGES = 2
 SAVE_PRED_EVERY = 10000
 SNAPSHOT_DIR = './snapshots/'

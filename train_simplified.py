@@ -31,7 +31,7 @@ def get_arguments():
     try:
         DATA_DIRECTORY = os.environ['SM_CHANNEL_TRAIN']
     except KeyError:
-        DATA_DIRECTORY = '/home/vrushank/Spyne/HR-Viton/CCIHP'
+        DATA_DIRECTORY = '/home/vrushank/data/Human-parsing/CCIHP'
 
     IGNORE_LABEL = 255
     INPUT_SIZE = '512, 512'
@@ -43,7 +43,7 @@ def get_arguments():
     try:
         RESTORE_FROM= 'resnet101-imagenet.pth'
     except FileNotFoundError:
-        RESTORE_FROM = '/home/vrushank/Spyne/HR-Viton/CCIHP/resnet101-imagenet.pth'
+        RESTORE_FROM = '/home/vrushank/data/Human-parsing/CCIHP/resnet101-imagenet.pth'
     SAVE_NUM_IMAGES = 2
     SAVE_PRED_EVERY = 10000
     try:
